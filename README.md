@@ -42,6 +42,6 @@
 Детекція здійснюється за допомогою нейромережевої архітектури Object Detection — YOLO11m (Medium). Процес навчання, оптимізації гіперпараметрів та аугментації проводився ізольовано у хмарному середовищі Kaggle, після чого ваги фінальної моделі (best.pt) було експортовано та інтегровано в систему.
 Завдяки модульній архітектурі, застосунок підтримує динамічну заміну файлу ваг current_model.pt на будь-яку іншу сумісну модель (натреновану на ідентичних 5 цільових класах) без зміни вихідного коду проєкту.
 
-Навчальний набір:[Personal-Protective-Equipment (PPE) Dataset](https://www.kaggle.com/datasets/ndomalau/personal-protective-equipment-ppe-dataset)
+Навчальний набір: [Personal-Protective-Equipment (PPE) Dataset](https://www.kaggle.com/datasets/ndomalau/personal-protective-equipment-ppe-dataset)
 
-Код експериментального навчання: доступний у [Kaggle Notebook](https://www.kaggle.com/code/annalozova/augmentated)
+Код експериментального навчання: [Kaggle Notebook](https://www.kaggle.com/code/annalozova/augmentated)
